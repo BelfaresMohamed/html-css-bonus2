@@ -7,7 +7,6 @@ nav{
     display: flex;
     justify-content: space-around;
     padding: 20px 30px 20px 30px;
-
 }
 
 .h3-nav{
@@ -35,6 +34,7 @@ nav{
     list-style: none;
     margin-right: 80px;
 }
+
 .last-li>a{
     color: white;
     text-decoration: none;
@@ -226,4 +226,86 @@ text-align: center;
 }
 .sect4>div>a{
     color: white;
+}
+
+
+
+@media (min-width: 375px) and (max-width:426px) {
+    /* Media nav */
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .sign-up{
+        margin-right: 30px;
+    }
+    .last-li{
+        width: 100%;
+        text-align: center;
+    }
+
+
+    /* Section 1 */
+    .sect-1{
+        padding: 20px;
+    }
+
+    .sect1-img{
+        display: none;
+    }
+
+    .sect1-icons{
+        display: none;
+    }
+
+    /* Section 2 */
+    .sect2{
+        height: auto;
+        padding: 40px;
+    }
+    .sect2-card1, .sect2-card2{
+        display: block;
+    }
+
+    .sect2-card1>div{
+        margin-bottom: 20px;
+    }
+
+    .sect2-card2>div{
+        margin-bottom: 20px;
+    }
+
+    /* section 3 */
+    .sect3{
+        height: auto;
+        padding: 30px;
+    }
+
+    [src="./public/images/image2.PNG"]{
+        display: none;
+    }
+
+    .sect3-div1{
+        margin: 0;
+    }
+
+    /* Section 4 */
+    .sect4{
+        height: auto;
+        padding: 30px;
+    }
+
+    .sect4-nmr{
+        display: block;
+        text-align: center;
+    }
+
+    .sect4-nmr>div{
+        margin-bottom: 20px;
+    }
 }
