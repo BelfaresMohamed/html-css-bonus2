@@ -1,19 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 /* Navbar */
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     padding: 20px 30px 20px 30px;
 }
 
-.h3-nav{
+.h3-nav {
     color: blueviolet;
 }
 
-.nav-links>ul{
+.nav-links>ul {
     display: flex;
     gap: 35px;
     list-style: none;
@@ -21,13 +22,13 @@ nav{
     font-weight: bold;
 }
 
-.nav-links>ul>li>a{
-   text-decoration: none;
-   color: rgb(107, 103, 103);
-   
+.nav-links>ul>li>a {
+    text-decoration: none;
+    color: rgb(107, 103, 103);
+
 }
 
-.last-li{
+.last-li {
     background-color: blueviolet;
     padding: 9px 20px 9px 20px;
     border-radius: 10px;
@@ -35,7 +36,7 @@ nav{
     margin-right: 80px;
 }
 
-.last-li>a{
+.last-li>a {
     color: white;
     text-decoration: none;
 }
@@ -43,52 +44,53 @@ nav{
 
 /* section 1 */
 
-.sect1-img{
+.sect1-img {
     margin-left: 18%;
 }
 
-.sect1-text{
+.sect1-text {
     text-align: center;
     line-height: 3rem;
 }
 
-.sect1-text>p{
+.sect1-text>p {
     font-weight: bold;
     font-size: large;
     color: rgb(114, 114, 114);
 }
 
-.sect1-text>button{
+.sect1-text>button {
     padding: 15px 40px 15px 40px;
     background-color: rebeccapurple;
     border: none;
 
 }
 
-.sect1-text>button>a{
+.sect1-text>button>a {
     color: white;
     text-decoration: none;
     letter-spacing: 2px;
 }
 
-.sect1-icons{
+.sect1-icons {
     margin-left: 20%;
     margin-top: 25px;
 }
 
 /* section2 */
 
-.sect2{
+.sect2 {
     background-color: rgb(248, 248, 248);
     height: 130vh;
 }
 
-.sect2-text{
+.sect2-text {
     text-align: center;
     margin-top: 4rem;
     line-height: 2.5rem;
 }
-.sect2-text>p{
+
+.sect2-text>p {
     font-weight: bold;
     color: darkgrey;
 }
@@ -98,13 +100,12 @@ nav{
     justify-content: space-evenly;
     margin-left: 20px;
     margin-top: 3rem;
-   
 }
 
 .sect2-card1>div{
     border: none;
-    box-shadow: 2px 5px 2px #888888; 
-     height: 36vh;
+    box-shadow: 2px 5px 2px #888888;
+    height: 36vh;
     text-align: center;
     line-height: 25px;
     width: 20rem;
@@ -115,76 +116,52 @@ nav{
     letter-spacing: 2px;
     margin-bottom: 5px;
 }
-.sect2-card1>div>img{
+
+.sect2-card1>div>img {
     margin-top: 10px;
 }
 
-.sect2-card2{
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: 20px;
-    margin-top: 3rem;
-}
-
-.sect2-card2>div{
-    border: none;
-    box-shadow: 2px 5px 2px #888888; 
-     height: 36vh;
-    text-align: center;
-    line-height: 25px;
-    width: 20rem;
-}
-
-
-.sect2-card2>div>h2{
-    color: gainsboro;
-    letter-spacing: 2px;
-    margin-bottom: 5px;
-}
-.sect2-card2>div>img{
-    margin-top: 10px;
-}
 
 /* section 3 */
 
-.sect3{
+.sect3 {
     height: 200vh;
 }
 
-.sect3-text{
+.sect3-text {
     text-align: center;
     margin-top: 4rem;
     line-height: 2.5rem;
     margin-bottom: 2rem;
 }
 
-.sect3-text>p{
+.sect3-text>p {
     font-weight: bold;
     color: darkgrey;
 }
 
-.sect3-div1{
+.sect3-div1 {
     display: flex;
     justify-content: space-evenly;
     margin-right: 50px;
     margin-bottom: 5rem;
 }
 
-.sect3-div1-text{
+.sect3-div1-text {
     margin-top: 7rem;
     text-align: center;
 }
 
-.sect3-div1-text>p{
+.sect3-div1-text>p {
     line-height: 26px;
     font-weight: bold;
     letter-spacing: 1px;
-    font-size: 20px ;
+    font-size: 20px;
     color: #888888;
     margin-bottom: 10px;
 }
 
-.sect3-div1-text>a{
+.sect3-div1-text>a {
     padding: 12px 20px;
     background-color: blueviolet;
     color: white;
@@ -193,104 +170,109 @@ nav{
 
 /* section 4 */
 
-.sect4{
+.sect4 {
     height: 50vh;
     background-color: rebeccapurple;
     color: white;
 }
-.sect4-text{
+
+.sect4-text {
     text-align: center;
     line-height: 2.5rem;
     margin-bottom: 2rem;
 }
 
-.sect4-text>p{
+.sect4-text>p {
     font-weight: bold;
 }
-.sect4-nmr{
+
+.sect4-nmr {
     display: flex;
     justify-content: space-evenly;
     margin: 10px;
 }
 
-.sect4-nmr>div>p{
+.sect4-nmr>div>p {
     font-size: 70px;
     font-weight: bold;
 }
-.sect4-nmr>div>h4{
-text-align: center;
+
+.sect4-nmr>div>h4 {
+    text-align: center;
 }
-.sect4-a{
+
+.sect4-a {
     text-align: center;
     margin-top: 25px;
 }
-.sect4>div>a{
+
+.sect4>div>a {
     color: white;
 }
 
 /* section 5 */
 
-.sect5{
+.sect5 {
     display: flex;
     justify-content: space-evenly;
     height: 80vh;
     margin-top: 70px;
 }
 
-.sect5-div1{
+.sect5-div1 {
     margin-top: 20px;
 }
-.div-child1{
+
+.div-child1 {
     display: flex;
     justify-content: space-evenly;
 }
 
-.div-child1>div{
+.div-child1>div {
     margin: 10px;
 }
 
-.div-child1>div>p{
+.div-child1>div>p {
     color: rgb(189, 189, 189);
     font-weight: bold;
     margin-top: 8px;
 }
 
-.sect5-img{
+.sect5-img {
     margin-top: 20px;
 }
 
 /* FOOTER */
 
-.footer-top{
+.footer-top {
     align-items: center;
     text-align: center;
     background-color: #eff1f2;
-    height: 50vh;line-height: 25px;
+    height: 50vh;
+    line-height: 25px;
 }
 
-.footer-top>div{
-    
+.footer-top>div {
     text-align: center;
     line-height: 2.5rem;
     margin-bottom: 2rem;
-
 }
 
-.footer-top>div>h4{
+.footer-top>div>h4 {
     color: rgb(193, 193, 193);
 }
 
-.footer-top>div>h2{
+.footer-top>div>h2 {
     color: #2C3E50;
 }
 
-.text{
+.text {
     padding: 12px 45px 12px 45px;
     border: 2px solid rebeccapurple;
     border-radius: 5px;
 }
 
-.button{
+.button {
     padding: 12px 95px 12px 95px;
     background-color: rebeccapurple;
     color: white;
@@ -299,13 +281,13 @@ text-align: center;
     border: none;
 }
 
-.footer-top>div>h6{
+.footer-top>div>h6 {
     color: rgb(193, 193, 193);
 }
 
 
 
-.footer-bottom{
+.footer-bottom {
     text-align: center;
     background-color: #eff1f2;
     color: rgb(193, 193, 193);
@@ -316,19 +298,21 @@ text-align: center;
 
 }
 
-.footer-bottom>div>ul{
+.footer-bottom>div>ul {
     display: flex;
     justify-content: space-evenly;
-    gap: 15px ;
-    
+    gap: 15px;
+
 }
-.footer-bottom>div>ul>li{
+
+.footer-bottom>div>ul>li {
     list-style: none;
 }
+
 @media (min-width: 375px) and (max-width:426px) {
     /* Media nav */
 
-    nav{
+    nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -336,73 +320,109 @@ text-align: center;
         gap: 20px;
     }
 
-    .sign-up{
+    .sign-up {
         margin-right: 30px;
     }
-    .last-li{
+
+    .last-li {
         width: 100%;
         text-align: center;
     }
 
 
-    /* Section 1 */
-    .sect-1{
+    /* media section 1 */
+    .sect-1 {
         padding: 20px;
     }
 
-    .sect1-img{
+    .sect1-img {
         display: none;
     }
 
-    .sect1-icons{
+    .sect1-icons {
         display: none;
     }
 
-    /* Section 2 */
-    .sect2{
+    /* media section 2 */
+    .sect2 {
         height: auto;
-        padding: 40px;
-    }
-    .sect2-card1, .sect2-card2{
-        display: block;
     }
 
-    .sect2-card1>div{
+    .sect2-card1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;
+        padding-top: 30px;
+
+    }
+
+    .sect2-card1>div {
         margin-bottom: 20px;
         height: 45vh;
     }
 
-    .sect2-card2>div{
-        margin-bottom: 20px;
-        height: 45vh;
-    }
 
-    /* section 3 */
-    .sect3{
+    /* media section 3 */
+    .sect3 {
         height: auto;
         padding: 30px;
     }
 
-    [src="./public/images/image2.PNG"]{
+    [src="./public/images/image2.PNG"] {
         display: none;
     }
 
-    .sect3-div1{
+    .sect3-div1 {
         margin: 0;
     }
 
-    /* Section 4 */
-    .sect4{
+    /* media Section 4 */
+    .sect4 {
         height: auto;
         padding: 30px;
     }
 
-    .sect4-nmr{
+    .sect4-nmr {
         display: block;
         text-align: center;
     }
 
-    .sect4-nmr>div{
+    .sect4-nmr>div {
         margin-bottom: 20px;
+    }
+
+    /* media section 5 */
+    .sect5{
+        margin: 0;
+        height: auto;
+        padding: 40px;
+    }
+    [src="./public/images/img2.PNG"] {
+        display: none;
+    }
+
+    .div-child1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* media footer */
+    .footer-top{
+        height: auto;
+        padding: 30px;
+    }
+
+    .footer-bottom{
+        height: auto;
+        padding: 20px;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        justify-content: space-between;
     }
 }
